@@ -1,6 +1,6 @@
 import { NavBar } from '../../Components/NavBar';
 import './IndexPage.css';
-import { PartnerProviders } from './IndexComponents/PartnerProviders';
+// import { PartnerProviders } from './IndexComponents/PartnerProviders';
 import { PreRegistro } from './IndexComponents/PreRegistro';
 import { Sliding } from './IndexComponents/Sliding';
 import { UserRegistration } from './IndexComponents/UserRegistration';
@@ -74,8 +74,8 @@ export const IndexPage = () => {
           <div className="header__low">
             <div>
               <UserRegistration />
-              <a href="">Registrate Gratis</a>
-              <PartnerProviders />
+              {/* <a href="">Registrate Gratis</a> */}
+              {/* <PartnerProviders /> */}
             </div>
 
             <div className="header__low-img">
