@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap');
 
 * {
   margin: 0;
@@ -133,11 +133,13 @@ body {
     top: 460px;
 }
 .header__title {
+    /* font-family: 'Roboto Slab', serif; */
+    /* font-weight: 700; */
     text-transform: uppercase;
     font-size: 100px;
-    font-family: Yonky;
+    /* font-family: Yonky; */
     font-size: 100px;
-    font-weight: 800;
+    /* font-weight: 800; */
     line-height: 102px;
     letter-spacing: 0.01em;
     text-align: center;
@@ -161,6 +163,21 @@ body {
     letter-spacing: 0em;
     text-align: center;
     color: #161616;
+    max-width: 854px;
+    width: 100%;
+    margin: 30px auto 0;
+}
+.header__paragrahp2 {
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #161616;
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto 24px;
 }
 .header__low {
     display: flex;
@@ -265,7 +282,12 @@ body {
     line-height: 20px;
 }
 
-
+.slider {
+    display: flex;
+    justify-content: center;
+    height: 166px;
+    background-color: var(--color-slider-logos);
+}
 
 
 /** __________  sliding-text __________ **/
@@ -378,11 +400,13 @@ body {
 }
 .pasos__content {
     margin: auto;
-    min-height: 2041px;
+    /* min-height: 2041px; */
+    height: auto;
 }
 .paso1__container {
     display: flex;
     justify-content: space-between;
+    margin-top: 97px;
 }
 .paso__numero {
     font-family: Euclid Square;
@@ -433,14 +457,19 @@ body {
     margin-bottom: 40px;
 }
 .paso1__paragraph span {
-color: #1A365E;
+    color: #1A365E;
 
-font-family: Poppins;
-font-size: 18px;
-font-weight: 500;
-line-height: 32px;
-letter-spacing: 0em;
-text-align: left;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.paso2__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
 }
 .paso2 h2 {
     font-family: Yonky;
@@ -450,6 +479,64 @@ text-align: left;
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-primary);
+    max-width: 450px;
+    width: 100%;
+    margin: 22px 0;
+}
+.paso2__paragraph {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 483px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.paso3 h2 {
+    font-family: Yonky;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: var(--color-primary);
+    max-width: 450px;
+    width: 100%;
+    margin: 22px 0;
+}
+
+.paso3__paragraph {
+    color: #161616;
+    font-family: Poppins;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0em;
+    text-align: left;
+    max-width: 483px;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.paso3__container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 97px;
 }
 .paso3 h2 {
     font-family: Yonky;
@@ -460,14 +547,44 @@ text-align: left;
     text-align: left;
     color: var(--color-primary);
 }
-.paso2__container {
-    display: flex;
-    justify-content: space-between;
-}
-.paso3__container {
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .pasos__button {
     font-family: Poppins;

@@ -2,7 +2,7 @@ import { NavBar } from '../../Components/NavBar';
 import './IndexPage.css';
 import { PartnerProviders } from './IndexComponents/PartnerProviders';
 import { PreRegistro } from './IndexComponents/PreRegistro';
-import { SlidingText } from './IndexComponents/SlidingText';
+import { Sliding } from './IndexComponents/Sliding';
 import { UserRegistration } from './IndexComponents/UserRegistration';
 import { NewFriends } from './IndexComponents/NewFriends';
 import { Footer } from '../../Components/Footer';
@@ -52,9 +52,13 @@ export const IndexPage = () => {
 
           <p className="header__paragrahp animate__animated animate__fadeInUp">
             Únete y descubre con nuestra IA muchos amigos afines al perfil de tu
-            mascota. entra los mejores proveedores de servicios relacionados con
-            el mundo de las mascotas.
+            mascota.
           </p>
+          <p className="header__paragrahp2">
+            Encuentra los mejores proveedores de servicios relacionados con el
+            mundo de las mascotas.
+          </p>
+          <p></p>
 
           <img
             className="header__circulo3 float"
@@ -94,7 +98,8 @@ export const IndexPage = () => {
         </section>
       </header>
 
-      <SlidingText />
+      <Sliding />
+
 
       <section className="social ">
         <div className="social__content container">
@@ -130,26 +135,28 @@ export const IndexPage = () => {
 
       <main className="pasos">
         <div className="pasos__content container">
-
           <div className="paso1__container">
             <div className="paso1">
-                <p className="paso__numero">PASO 1</p>
-                <h2>Regístrate y conviértete en un Yuppifriend.</h2>
+              <p className="paso__numero">PASO 1</p>
+              <h2>Regístrate y conviértete en un Yuppifriend.</h2>
 
-                <p className="paso1__paragraph">
-                  Sé de los primeros en convertirte en un Yuppi amigo al <span>Pre
-                  regístrarte</span>  en nuestra comunidad de mascotas
-                </p>
+              <p className="paso1__paragraph">
+                Sé de los primeros en convertirte en un Yuppi amigo al{" "}
+                <span>Pre regístrarte</span> en nuestra comunidad de mascotas
+              </p>
 
-                <p className="paso1__paragraph">
-                  <span>Ayúdanos</span> siendo parte de Yuppipets para mejorar la vida de
-                  nuestras mascotas y lograr una bella convivencia con los
-                  animalitos del mundo.
-                </p>
-                
-                <button className="pasos__button" aria-label='boton para registrarse'>
-                  Registrarme
-                </button>
+              <p className="paso1__paragraph">
+                <span>Ayúdanos</span> siendo parte de Yuppipets para mejorar la
+                vida de nuestras mascotas y lograr una bella convivencia con los
+                animalitos del mundo.
+              </p>
+
+              <button
+                className="pasos__button"
+                aria-label="boton para registrarse"
+              >
+                Registrarme
+              </button>
             </div>
 
             <div className="paso1__ilustracion">
@@ -172,20 +179,18 @@ export const IndexPage = () => {
               <p className="paso__numero">PASO 2</p>
               <h2>Crea el perfil Yuppi de tu o tus mascotas.</h2>
 
-              <p>
+              <p className="paso2__paragraph">
                 Sé de los primeros en convertirte en un Yuppi amigo al Pre
                 regístrarte en nuestra comunidad de mascotas
               </p>
 
-              <p>
+              <p className="paso2__paragraph">
                 Ayúdanos siendo parte de Yuppipets para mejorar la vida de
                 nuestras mascotas y lograr una bella convivencia con los
                 animalitos del mundo.
               </p>
 
-              <button className="pasos__button">
-                Registrarme
-              </button>
+              <button className="pasos__button">Registrarme</button>
             </div>
           </div>
 
@@ -194,20 +199,18 @@ export const IndexPage = () => {
               <p className="paso__numero">PASO 3</p>
               <h2>Elige y recibe un regalo para tu mascota.</h2>
 
-              <p>
+              <p className="paso3__paragraph">
                 Sé de los primeros en convertirte en un Yuppi amigo al Pre
                 regístrarte en nuestra comunidad de mascotas
               </p>
 
-              <p>
+              <p className="paso3__paragraph">
                 Ayúdanos siendo parte de Yuppipets para mejorar la vida de
                 nuestras mascotas y lograr una bella convivencia con los
                 animalitos del mundo.
               </p>
 
-              <button className="pasos__button">
-                Registrarme
-              </button>
+              <button className="pasos__button">Registrarme</button>
             </div>
 
             <div className="paso3__ilustracion">
@@ -334,65 +337,7 @@ export const IndexPage = () => {
         </div>
       </section>
 
-      <section className="slider">
-        <div className="slider__content container">
-          <div className="slider__overlay-left"></div>
-          <div className="slider__track">
-            <div className="slide">
-              <img src="/images/bravecto.svg" alt="logo bravecto" />
-            </div>
-            <div className="slide">
-              <img src="/images/logo-sofia.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img src="/images/logo_ohmaigat.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img src="/images/bravecto.svg" alt="logo bravecto" />
-            </div>
-            <div className="slide">
-              <img src="/images/bravecto.svg" alt="logo bravecto" />
-            </div>
-            <div className="slide">
-              <img src="/images/bravecto.svg" alt="logo bravecto" />
-            </div>
-            <div className="slide">
-              <img src="/images/logo_ohmaigat.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img
-                src="/images/bravecto.svg"
-                alt="logo bravecto" /* height="100" width="100" */
-              />
-            </div>
-            <div className="slide">
-              <img
-                src="/images/bravecto.svg"
-                alt="logo bravecto" /* height="100" width="100" */
-              />
-            </div>
-            <div className="slide">
-              <img src="/images/logo_ohmaigat.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img src="/images/logo-sofia.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img src="/images/logo_ohmaigat.svg" alt="logo sofia" />
-            </div>
-            <div className="slide">
-              <img
-                src="/images/bravecto.svg"
-                alt="logo bravecto" /* height="100" width="100" */
-              />
-            </div>
-            <div className="slide">
-              <img src="/images/logo-sofia.svg" alt="logo sofia" />
-            </div>
-          </div>
-          <div className="slider__overlay-right"></div>
-        </div>
-      </section>
+      <Sliding />
 
       <Footer />
     </>
