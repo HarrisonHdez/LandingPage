@@ -1,0 +1,72 @@
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('./fonts/EuclidSquare-Light.eot') format('eot'),
+         url('./fonts/EuclidSquare-Light.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-Light.woff') format('woff'),
+         url('./fonts/EuclidSquare-Light.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('./fonts/EuclidSquare-Regular.eot') format('eot'),
+         url('./fonts/EuclidSquare-Regular.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-Regular.woff') format('woff'),
+         url('./fonts/EuclidSquare-Regular.woff2') format('woff2');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('./fonts/EuclidSquare-Medium.eot') format('eot'),
+         url('./fonts/EuclidSquare-Medium.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-Medium.woff') format('woff'),
+         url('./fonts/EuclidSquare-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('./fonts/EuclidSquare-SemiBold.eot') format('eot'),
+         url('./fonts/EuclidSquare-SemiBold.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-SemiBold.woff') format('woff'),
+         url('./fonts/EuclidSquare-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+}
+@font-face {
+    font-family: 'Euclid Square';
+    src: url('./fonts/EuclidSquare-Bold.eot') format('eot'),
+         url('./fonts/EuclidSquare-Bold.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-Bold.woff') format('woff'),
+         url('./fonts/EuclidSquare-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+@font-face {
+    font-family: 'Saol Display';
+    src: url('./fonts/SaolDisplay-LightItalic.otf') format('otf'),
+         url('./fonts/SaolDisplay-LightItalic.ttf') format('truetype'),
+         url('./fonts/EuclidSquare-LightItalic.woff') format('woff'),
+         url('./fonts/EuclidSquare-LightItalic.woff2') format('woff2');
+    font-weight: 300;
+}
+@font-face {
+    font-family: 'Saol Display';
+    src: url('./fonts/SaolDisplay-Regular.otf') format('otf'),
+         url('./fonts/SaolDisplay-Regular.ttf') format('truetype');
+    font-weight: 400;
+}
+@font-face {
+    font-family: 'Saol Display';
+    src: url('./fonts/SaolDisplay-MediumItalic.otf') format('otf'),
+         url('./fonts/SaolDisplay-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Saol Display';
+    src: url('./fonts/SaolDisplay-Medium.otf') format('otf'),
+         url('./fonts/SaolDisplay-Medium.ttf') format('truetype');
+    font-weight: 500;
+}
+@font-face {
+    font-family: 'Saol Display';
+    src: url('./fonts/SaolDisplay-SemiboldItalic.otf') format('otf'),
+         url('./fonts/SaolDisplay-SemiboldItalic.ttf') format('truetype');
+    font-weight: 600;
+}
