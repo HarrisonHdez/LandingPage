@@ -72,7 +72,7 @@ body {
 .pre-registro img {
 }
 .pre-registro__button {
-    position: relative;
+    /* position: relative; */
     cursor: pointer;
     left: 163px;
     width: 24px;
@@ -90,9 +90,9 @@ body {
 /** __________  Header __________ **/
 .header {
     width: 100%;
-    /* min-height: 1190px; */
     height: auto;
 }
+
 .header__content {
     margin: 104px auto 0;
 }
@@ -133,25 +133,17 @@ body {
     top: 460px;
 }
 .header__title {
-    /* font-family: 'Roboto Slab', serif; */
-    /* font-weight: 700; */
     text-transform: uppercase;
     font-size: 100px;
-    /* font-family: Yonky; */
     font-size: 100px;
-    /* font-weight: 800; */
     line-height: 102px;
     letter-spacing: 0.01em;
     text-align: center;
     color: var(--color-primary);
 }
 .header__title img {
-    /* display: inline-block; */
-    /* margin-bottom: -36px; */
-    /* position: relative; */
-    /* top: -12px; */
+    
     vertical-align: middle;
-    /* width: 180px; */
     margin-top: -38px;
     margin-bottom: -13px;
 }
