@@ -145,7 +145,8 @@
     position: fixed;
     background: #fff;
     overflow: hidden;
-    background-color: var(--color-primary);
+    background-color: var(--color-second);
+
     border-radius: 24px;
     border: none;
 }
@@ -164,7 +165,7 @@
     bottom: 0;
     height: 0;
     width: 100%;
-    background-color: var(--color-second);
+    background-color: var(--color-primary);
   
     border: none;
   }
@@ -203,7 +204,7 @@
     text-transform: capitalize;
     font-size:18px;
     text-decoration: none;
-    color: #1B2125;
+    color: #ffffff;
 }
 .menu__desplegable a:hover {
     color: var(--color-second)
@@ -224,7 +225,7 @@
     right: 0;
     height: 790px;
     left: 70%;
-    background-color: #ffffff;
+    background-color: var(--color-primary);
     z-index: 1;
 }
 
