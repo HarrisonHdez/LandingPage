@@ -165,7 +165,7 @@
     bottom: 0;
     height: 0;
     width: 100%;
-    background-color: var(--color-primary);
+    /* background-color: var(--color-primary); */
   
     border: none;
   }

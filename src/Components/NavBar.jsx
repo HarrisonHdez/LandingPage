@@ -162,7 +162,7 @@ export const NavBar = () => {
             <a href="">Quienes Somos</a>
             <a href="">Contacto</a>
             <div className="menu__desplegable-image">
-              <img src="/images/logo.svg" alt="logo" />
+              <img src="/images/logo-white.svg" alt="logo" />
             </div>
           </div>
         </div>
